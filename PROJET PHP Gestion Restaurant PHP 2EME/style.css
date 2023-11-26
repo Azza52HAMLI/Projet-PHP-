@@ -1,0 +1,243 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3cbcb;
+    padding: 20px;
+    background-image: url("../image/b.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+
+ 
+  
+
+  p {
+    color: rgb(20, 9, 29);
+    font-size: large;
+  }
+  
+ 
+  
+  label {
+
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+ 
+  
+  input[type="submit"] {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff6659;
+  }
+  
+  a {
+    color: rgb(12, 82, 54);
+    text-decoration: none;
+    
+  }
+  
+  header {
+    background-color: #5e9149;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    color: #3a0709;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+
+  
+  
+  .description {
+    background-color: #869d92;
+    border: 1px solid #CCCCCC;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+   
+  }
+  p{
+  font-size: 17px; 
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+
+
+  
+  
+ 
+  
+  legend {
+    font-weight: bold;
+  }
+  
+ 
+  
+  input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+  }
+  table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+ 
+
+
+
+
+/* Style pour le titre secondaire */
+h2 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+  text-align: center;
+  color: #2a0c0c;
+  font-size: 23px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Style pour le tableau */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #ccc;
+}
+
+td {
+	border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les liens hypertextes */
+a {
+	color: #7a2208;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Style pour l'ensemble du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style pour chaque champ de formulaire */
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Style pour le champ de saisie */
+input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style pour le bouton de soumission */
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Style pour le survol du bouton de soumission */
+button:hover {
+  background-color: #0077a3;
+}
+
+/* Style pour les messages d'erreur */
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+
+
